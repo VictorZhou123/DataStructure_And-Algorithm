@@ -36,7 +36,6 @@ class FileSystemTree:
         raise ValueError("invalid dir")
         
         
-
 tree = FileSystemTree()
 tree.mkdir('var')
 tree.mkdir('usr')
